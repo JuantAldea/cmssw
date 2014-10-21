@@ -115,6 +115,7 @@ hiPixelPairGlobalPrimTracks = RecoTracker.TrackProducer.TrackProducer_cfi.TrackP
     AlgorithmName = cms.string('iter2'),
     src = 'hiPixelPairTrackCandidates',
     Fitter = cms.string('FlexibleKFFittingSmoother')
+    AlgorithmName = cms.string('pixelPairStep')
     )
 
 
